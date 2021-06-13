@@ -12,6 +12,7 @@ module.exports = {
 	plugins: ['@typescript-eslint'],
 	rules: {
 		'@typescript-eslint/comma-dangle': 'off',
+		'@typescript-eslint/triple-slash-reference': 'off',
 	},
 	ignorePatterns: ['dist'],
 };
