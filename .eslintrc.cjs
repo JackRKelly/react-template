@@ -1,7 +1,7 @@
 module.exports = {
 	env: {
 		es2021: true,
-		node: true,
+		browser: true,
 	},
 	extends: ['xo', 'xo-typescript'],
 	parser: '@typescript-eslint/parser',
@@ -12,7 +12,6 @@ module.exports = {
 	plugins: ['@typescript-eslint'],
 	rules: {
 		'@typescript-eslint/comma-dangle': 'off',
-		"@typescript-eslint/triple-slash-reference": "off"
 	},
-	ignorePatterns: ['dist', '.eslintrc.cjs'],
+	ignorePatterns: ['dist'],
 };

@@ -2,7 +2,7 @@ import {Counter} from './components/Counter';
 
 export function App() {
 	return (
-		<div>
+		<div className="app">
 			<Counter />
 		</div>
 	);
