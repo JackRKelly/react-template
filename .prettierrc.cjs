@@ -3,4 +3,5 @@ module.exports = {
 	singleQuote: true,
 	printWidth: 100,
 	bracketSpacing: false,
+	arrowParens: 'avoid',
 };
