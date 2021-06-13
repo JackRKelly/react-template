@@ -3,7 +3,7 @@ module.exports = {
 		es2021: true,
 		browser: true,
 	},
-	extends: ['xo', 'xo-typescript'],
+	extends: ['xo', 'xo-react', 'xo-typescript'],
 	parser: '@typescript-eslint/parser',
 	parserOptions: {
 		ecmaVersion: 12,
