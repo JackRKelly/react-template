@@ -13,6 +13,7 @@ module.exports = {
 	rules: {
 		'@typescript-eslint/comma-dangle': 'off',
 		'@typescript-eslint/triple-slash-reference': 'off',
+		'react/jsx-tag-spacing': 'off',
 	},
 	ignorePatterns: ['dist'],
 };
