@@ -14,6 +14,7 @@ module.exports = {
 		'@typescript-eslint/comma-dangle': 'off',
 		'@typescript-eslint/triple-slash-reference': 'off',
 		'react/jsx-tag-spacing': 'off',
+		'react/function-component-definition': [2, {namedComponents: 'function-declaration'}],
 	},
 	ignorePatterns: ['dist'],
 };
