@@ -1,9 +1,9 @@
 {
 	"name": "react-template",
 	"version": "1.0.0",
-	"main": "index.tsx",
+	"main": "src/index.tsx",
 	"repository": "https://github.com/JackRKelly/react-template.git",
-	"author": "Kelly, Jack <jack.kelly@myyellow.com>",
+	"author": "Kelly, Jack <kcjackkelly@gmail.com>",
 	"license": "MIT",
 	"devDependencies": {
 		"@types/react": "^17.0.11",
@@ -15,7 +15,6 @@
 		"eslint-config-xo-react": "^0.25.0",
 		"eslint-config-xo-typescript": "^0.41.1",
 		"prettier": "^2.3.1",
-		"ts-node-dev": "^1.1.6",
 		"typescript": "^4.3.2"
 	},
 	"dependencies": {
